@@ -1,0 +1,177 @@
+.admin{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.1fr 1.9fr   ;
+    grid-template-areas: "top top top top top"
+                         "side main main main main"
+                         "side main main main main"
+                         ;
+}
+
+.side{
+    grid-area: side;
+   /* background-color: #f1f1f1;*/
+    height: 40%;
+    position: sticky;
+    height: calc(100vh - 50px);
+    background-color: rgb(251, 251, 255);
+    box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.0);
+-webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.10);
+-moz-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.0);
+    
+    
+
+    display: flex;
+    flex-direction: column;
+   
+    padding-top: 20px;
+   
+}
+.sideUp{
+    display: flex;
+    flex-direction: column;
+    
+    padding-left: 90px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.sideUpItem{
+    display: flex;
+    flex-direction: column;
+    text-transform: capitalize
+    
+}
+.sideUpItemRole{
+   
+    
+}
+.sideUpImage>img{
+       
+       border-radius: 50px;
+     
+       height: 80px;
+}
+.sideDownList{
+    
+    padding-left: 25px;
+}
+
+.sidebarListItem{
+
+    padding: 10px;
+    padding-left: 10px;
+    align-items: center;
+    color: rgb(71, 71, 71);
+    display: flex;
+    font-weight: 600;
+  
+}
+.sidebarListItem:hover{
+    
+    background-color:rgb(228, 228, 228);
+    color: rgb(17, 17, 17); 
+    cursor: pointer;
+    border-radius: 10px;
+}
+.listItem{
+    
+    padding-left: 10px;    
+}
+
+
+.listItem>a{ 
+    color: gray;   
+}
+.listItem>a:link{
+    text-decoration: none;   
+ }
+ .listItem>a:hover{
+      color: black;
+ }
+ 
+.dashbord{
+    display: flex;
+    flex-direction: column;
+} 
+
+.uperDashbord{
+    display: flex;
+    justify-content: space-evenly;
+}
+.lowerDashbord{
+    display: flex;
+    justify-content: space-evenly;
+}
+.body{
+    background-color: #f6f6f8;
+    grid-area: main;
+   
+}
+.appointments{
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+}
+.topAppoint{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.tableLoader{
+    margin-top: 40%;
+    margin-left: 100%;
+}
+
+@media only screen and (max-width: 850px){
+    .admin{
+        grid-template-columns:1fr;
+        grid-template-rows:0.1fr 0.1fr ;
+        grid-template-areas: "top" "side" "main";
+        
+
+    }
+    .admin_header{
+        
+        
+    }
+    .side{
+        position: fixed;
+        top: 0;
+         z-index: 999;
+         height: 100vh;
+        /* transform: translateX(-100%);*/
+         transition: transform 0.3s ease-in-out;
+         align-items:flex-start;
+         width: 250px;
+         
+        
+         
+    }
+    .sidebarItem{
+        
+        
+  
+    }
+    .sidebarMenu{
+        display: flex;
+        justify-content: space-between
+    }
+    
+    .sidebarTitle{
+        display: none;
+        font-size: 13px;
+        color: lightgray;
+    }
+    .sidebarListItem{     
+        padding: 10px;
+    
+    }
+    .uperDashbord{
+        flex-direction: column;
+        
+    }
+    .lowerDashbord{
+        flex-direction: column;
+    } 
+    
+}
