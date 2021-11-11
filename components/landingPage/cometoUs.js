@@ -6,7 +6,7 @@ function CometoUs() {
       <div className="container text-center wow zoomIn">
         <span className="subhead">COME TO US, YOU WILL LEAVE BEAUTIFIED.</span>
         <h1 className="display-4">Sisters Beauty Salon</h1>
-        <a href="#" style={{backgroundColor: "#cee0d3"}} className="btn ">Let's Consult</a>
+        <a href="#" style={{backgroundColor: "#cee0d3"}} className="btn ">Let&apos;s Consult</a>
       </div>
     </div>
   </div>

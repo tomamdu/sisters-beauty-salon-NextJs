@@ -20,10 +20,10 @@ export default function Layout({ children }) {
 
   return (
     <>
-    {authorization != "true" ? 
+    { 
     useEffect(() => {
-        router.push('/signin')
-    }, []):
+        authorization != "true" ?
+        router.push('/signin'):
       <div className="admin">
       <Header/>
       <Side role = {role} name = {name} email = {email}/>
@@ -31,6 +31,7 @@ export default function Layout({ children }) {
         {children}
       </div>
       </div>
+    }, [])
     }
     </>
   )

@@ -79,11 +79,11 @@ function Appointments(){
       <div className="topAppoint">   
 
         <div claseName="rightAppoint">
-              <div class="input-group rounded">
-                <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search"
+              <div className="input-group rounded">
+                <input type="search" className="form-control rounded" placeholder="Search" aria-label="Search"
                 aria-describedby="search-addon" />
-                <span class="input-group-text border-0" id="search-addon">
-                  <i class="fas fa-search"></i>
+                <span className="input-group-text border-0" id="search-addon">
+                  <i className="fas fa-search"></i>
                 </span>
               </div>
         </div>        
@@ -128,7 +128,7 @@ function Appointments(){
       <td>{r.phone}</td>
       <td>{moment(r.date.toDate()).format("MMM Do YY")}</td>
       <td>{r.service}</td>
-      <td><button class="btn btn-outline-danger btn-sm">Delete</button></td>
+      <td><button className="btn btn-outline-danger btn-sm">Delete</button></td>
     </tr>
        )} 
   </tbody>

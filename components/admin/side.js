@@ -23,21 +23,21 @@ function Side(prop){
                 <lu className="sideDownList">
                    <Link  href="/admin">
                     <li  className="sidebarListItem">
-                        <i class="fas fa-tachometer-alt"></i>
+                        <i className="fas fa-tachometer-alt"></i>
                         <div className="listItem">Dashbord </div>
                     </li>
                     </Link>
                      {prop.role == 'adminsisters'?
                     <Link  href="/admin/users"> 
                     <li className="sidebarListItem">
-                        <i class="fas fa-users"></i>
+                        <i className="fas fa-users"></i>
                         <div className="listItem"> Users</div>
                     </li>
                     </Link>:null}
                 
                     <Link  href="/admin/gallery"> 
                     <li className="sidebarListItem">
-                        <i class="fas fa-users"></i>
+                        <i className="fas fa-users"></i>
                         <div className="listItem"> Gallery</div>
                     </li>
                     </Link>
@@ -45,7 +45,7 @@ function Side(prop){
                       {prop.role == 'adminsisters'?
                     <Link  href="/admin/appointments"> 
                     <li className="sidebarListItem">
-                        <i class="fas fa-calendar-check"></i>
+                        <i className="fas fa-calendar-check"></i>
                         <div className="listItem">Appointments</div>
                     </li>
                     </Link>:null}
@@ -53,14 +53,14 @@ function Side(prop){
                      
                     <Link  href="/admin/appointments"> 
                     <li className="sidebarListItem">
-                        <i class="fas fa-calendar-check"></i>
+                        <i className="fas fa-calendar-check"></i>
                         <div className="listItem">My Appointment</div>
                     </li>
                    </Link>
                  
                     <Link  href="/admin/appointments"> 
                     <li className="sidebarListItem">
-                        <i class="fas fa-calendar-check"></i>
+                        <i className="fas fa-calendar-check"></i>
                         <div className="listItem">Book</div>
                     </li>
                     </Link>

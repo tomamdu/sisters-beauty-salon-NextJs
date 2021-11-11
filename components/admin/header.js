@@ -49,7 +49,7 @@ function Header(){
             <meta charSet="utf-8" />           
             <title>Sisters Admin</title>             
             <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css"></link>
-            <script src="https://kit.fontawesome.com/53891a1ef0.js" crossorigin="anonymous"></script>
+            <script async src="https://kit.fontawesome.com/53891a1ef0.js" crossorigin="anonymous"></script>
             <link rel="preconnect" href="https://fonts.googleapis.com"></link>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin></link>
 <link href="https://fonts.googleapis.com/css2?family=Mohave:wght@300;400&family=Open+Sans:wght@300&display=swap" rel="stylesheet"></link>
