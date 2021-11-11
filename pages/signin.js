@@ -14,7 +14,7 @@ import 'firebase/auth';
 
 import Link from 'next/link'
 import Head from 'next/head'
-
+import Script from 'next/script'
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -155,10 +155,9 @@ function SignIn(){
             <div>
             <Head>
         <title>Sisters Beauty Salon sign in</title>
-        
-        <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css"></link>
-        <script async src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-        <script async src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+         <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css"></link>
+        {/*<Script async src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></Script>
+        <Script async src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></Script>*/}
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css"></link>
       </Head>
 <div>
