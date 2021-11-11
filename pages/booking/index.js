@@ -26,15 +26,11 @@ export default function Booking() {
         
 
       </Head> 
-      
-      <div classname="{styles.container}">
-       {/* Back to top button */}
-     <div className="back-to-top" />
 
       <Header/>
       <Appointment/>
      <Footer/>
-  </div>
+  
 
     </>
   )

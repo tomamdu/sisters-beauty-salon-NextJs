@@ -31,16 +31,16 @@ export default function Home() {
         <meta name="description" content="Sisters beauty salon is an establishment that offers the best variety of cosmetic treatments and cosmetic services for women in Addis Ababa,Ethiopia.sisters Beauty salon offer a variety of services including professional hair cutting and styling, manicures and pedicures, and often cosmetics, makeup and makeovers."/>     
         
 
-      <script type="text/javascript" src="/js/jquery-3.5.1.min.js"></script>
-      <script type="text/javascript" src="/js/bootstrap.bundle.min.js"></script>
-      <script type="text/javascript" src="/vendor/owl-carousel/js/owl.carousel.min.js"></script>
-      <script type="text/javascript" src="/vendor/wow/wow.min.js"></script>
-      <script type="text/javascript" src="/js/theme.js"></script>
-        
+      <script async src="/js/jquery-3.5.1.min.js"></script>
+      <script type="text/javascript" async src="/js/bootstrap.bundle.min.js"></script>
+      <script type="text/javascript" async src="/vendor/owl-carousel/js/owl.carousel.min.js"></script>
+      <script type="text/javascript" async src="/vendor/wow/wow.min.js"></script>
+      <script type="text/javascript" async src="/js/theme.js"></script>
+       
 
       </Head> 
       
-      <div classname="{styles.container}">
+      <div >
        {/* Back to top button */}
      <div className="back-to-top" />
 
