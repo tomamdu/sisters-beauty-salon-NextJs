@@ -8,7 +8,7 @@ import { app,  } from '../firebase/initFirebase';
 
 import Header from '../components/landingPage/header'
 import CometoUs from '../components/landingPage/cometoUs'
-import OurCustomers from '../components/landingPage/OurCustomers';
+import OurCustomers from '../components/landingPage/ourCustomers';
 import Mobile from '../components/landingPage/mobile';
 import Footer from '../components/landingPage/footer';
 
