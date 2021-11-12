@@ -5,12 +5,11 @@ import { getAuth, signOut } from "firebase/auth";
 
 import { app,  } from '../../firebase/initFirebase';
 
-import Head from 'next/head'
 import Link from 'next/link'
 import Image from 'next/image'
 import { useRouter } from 'next/router' 
 import Cookies from 'js-cookie'
-import Script from 'next/script'
+
 
 function Header(){
 
@@ -45,19 +44,8 @@ function Header(){
 
     return(
         <>
-           <Head>
-          
-            <meta charSet="utf-8" />           
-            <title>Sisters Admin</title>             
-            <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css"></link>
-            <Script async src="https://kit.fontawesome.com/53891a1ef0.js" crossOrigin="anonymous"></Script>
-            <link rel="preconnect" href="https://fonts.googleapis.com"></link>
-<link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin></link>
-<link href="https://fonts.googleapis.com/css2?family=Mohave:wght@300;400&family=Open+Sans:wght@300&display=swap" rel="stylesheet"></link>
+           
 
-
-
-            </Head>
         <div className="admin_header" >
                 <div className="left">
                     <div className="leftItem">
