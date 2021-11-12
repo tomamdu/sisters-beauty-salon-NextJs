@@ -17,16 +17,16 @@ export default function Layout({ children }) {
   const name = Cookies.get('name')
   const role = Cookies.get('role')
 
-  
-  
-
-  return (
-    <>
-    {authorization != "true" ? 
-    useEffect(() => {
-        router.push('/signin')
-    }, []):
-      <div className="admin">
+  useEffect(() => {
+    if(authorization !== "true"){
+      
+      router.push('/signin')
+       
+    }
+     }, [])
+    if(authorization == "true"){
+       return (
+       <div className="admin">
       <Head>
             <meta charSet="utf-8" />           
             <title>Sisters Admin</title>             
@@ -42,7 +42,10 @@ export default function Layout({ children }) {
         {children}
       </div>
       </div>
+       )
     }
-    </>
-  )
+ 
+  return null;
+
+ 
 }
