@@ -44,8 +44,11 @@ function SignUp(){
       .then((userCredential) => {
     // Signed in 
       const user = userCredential.user;
-
-      const  userId = user.uid
+      
+        if(user.uid){
+            const  userId = user.uid
+        }
+      
 
         return setDoc(doc(db, "users", userId), {
           name: name,
