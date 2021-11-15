@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 function OurCustomers() {
     return(
       
@@ -8,7 +10,7 @@ function OurCustomers() {
         <div className="item">
           <div className="card-doctor">
             <div className="header">
-              <img src="/img/doctors/doctor_1.jpg" alt />
+              <Image src="/img/doctors/doctor_1.jpg" alt />
               <div className="meta">
                 <a href="#"><span className="mai-call" /></a>
                 <a href="#"><span className="mai-logo-whatsapp" /></a>
@@ -23,7 +25,7 @@ function OurCustomers() {
         <div className="item">
           <div className="card-doctor">
             <div className="header">
-              <img src="/img/doctors/doctor_2.jpg" alt />
+              <Image src="/img/doctors/doctor_2.jpg" alt />
               <div className="meta">
                 <a href="#"><span className="mai-call" /></a>
                 <a href="#"><span className="mai-logo-whatsapp" /></a>
@@ -38,7 +40,7 @@ function OurCustomers() {
         <div className="item">
           <div className="card-doctor">
             <div className="header">
-              <img src="/img/doctors/doctor_3.jpg" alt />
+              <Image src="/img/doctors/doctor_3.jpg" alt />
               <div className="meta">
                 <a href="#"><span className="mai-call" /></a>
                 <a href="#"><span className="mai-logo-whatsapp" /></a>
