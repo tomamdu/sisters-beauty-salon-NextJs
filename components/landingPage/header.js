@@ -1,5 +1,5 @@
 import Link from 'next/link'
-//import { signIn, signOut, useSession } from 'next-auth/client'
+import Image from 'next/image';
 
 function Header() {
     return (
@@ -26,7 +26,13 @@ function Header() {
         </div> {/* .topbar */}
         <nav className="navbar navbar-expand-lg navbar-light shadow-sm">
           <div className="container">
-          <img style={{maxWidth:"6%", maxHeight:"12%"}} src="/img/logos/logos_black.png" alt />
+          {/*<img style={{maxWidth:"6%", maxHeight:"12%"}} src="/img/logos/logos_black.png" alt />*/}
+          <Image
+              src="/img/logos/logos_black.png"
+              alt="Picture of a logo"
+              width={100}
+              height={100}
+            />
             <a className="navbar-brand" href="#"><span className="text-primary"></span>Sisters-Beauty-Salon</a>
             <form action="#">
               <div className="input-group input-navbar">
