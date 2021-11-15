@@ -14,7 +14,7 @@ import 'firebase/auth';
 
 import Link from 'next/link'
 import Head from 'next/head'
-import Script from 'next/script'
+
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -216,7 +216,7 @@ function SignIn(){
         }    
           </div> {/* form-group// */}      
           
-          <p className="text-center">Have an account?<Link href="/signup"> Create Account  </Link>  </p>                                                      
+          {/*<p className="text-center">Have an account?<Link href="/signup"> Create Account  </Link>  </p> */}                                                     
         </form>
       </article>
     </div> {/* card.// */}
