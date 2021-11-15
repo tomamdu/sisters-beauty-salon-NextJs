@@ -28,12 +28,12 @@ function Header() {
           <div className="container">
           {/*<img style={{maxWidth:"6%", maxHeight:"12%"}} src="/img/logos/logos_black.png" alt />*/}
           <Image
-              src="/img/logos/logos_black.png"
+              src="/img/cover_photo_1.png"
               alt="Picture of a logo"
-              width={100}
+              width={200}
               height={100}
             />
-            <a className="navbar-brand" href="#"><span className="text-primary"></span>Sisters-Beauty-Salon</a>
+           {/* <a className="navbar-brand" href="#"><span className="text-primary"></span>Sisters-Beauty-Salon</a>*/}
             <form action="#">
               <div className="input-group input-navbar">
                 <div className="input-group-prepend">
