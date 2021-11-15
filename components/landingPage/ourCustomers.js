@@ -10,7 +10,12 @@ function OurCustomers() {
         <div className="item">
           <div className="card-doctor">
             <div className="header">
-              <Image src="/img/doctors/doctor_1.jpg" alt />
+              <Image 
+                    src="/img/doctors/doctor_1.jpg" 
+                    alt
+                    width={500}
+                    height={500}
+               />
               <div className="meta">
                 <a href="#"><span className="mai-call" /></a>
                 <a href="#"><span className="mai-logo-whatsapp" /></a>
@@ -25,7 +30,10 @@ function OurCustomers() {
         <div className="item">
           <div className="card-doctor">
             <div className="header">
-              <Image src="/img/doctors/doctor_2.jpg" alt />
+              <Image src="/img/doctors/doctor_2.jpg" alt
+                   width={500}
+                    height={550}
+                     />
               <div className="meta">
                 <a href="#"><span className="mai-call" /></a>
                 <a href="#"><span className="mai-logo-whatsapp" /></a>
@@ -40,7 +48,10 @@ function OurCustomers() {
         <div className="item">
           <div className="card-doctor">
             <div className="header">
-              <Image src="/img/doctors/doctor_3.jpg" alt />
+              <Image src="/img/doctors/doctor_3.jpg" alt
+                     width={500}
+                     height={550}
+               />
               <div className="meta">
                 <a href="#"><span className="mai-call" /></a>
                 <a href="#"><span className="mai-logo-whatsapp" /></a>

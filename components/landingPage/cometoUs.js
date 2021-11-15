@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 function CometoUs() {
     return(
         <div>
@@ -51,7 +53,10 @@ function CometoUs() {
           </div>
           <div className="col-lg-6 wow fadeInRight" data-wow-delay="400ms">
             <div className="img-place custom-img-1">
-              <img src="/img/makeup.jpg" alt />
+              <Image
+                   width={500}
+                   height={300}
+                   src="/img/makeup.jpg" alt />
             </div>
           </div>
         </div>

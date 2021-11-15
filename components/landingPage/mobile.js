@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 function Mobile() {
     return (
         <div>
@@ -6,7 +8,10 @@ function Mobile() {
       <div className="row align-items-center">
         <div className="col-lg-4 wow zoomIn">
           <div className="img-banner d-none d-lg-block">
-            <img src="/img/mobile_app.png" alt />
+            <Image  
+                   width={500}
+                   height={600}
+                   src="/img/mobile_app.png" alt />
           </div>
         </div>
         <div className="col-lg-8 wow fadeInRight">
