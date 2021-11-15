@@ -26,7 +26,7 @@ function Header() {
         </div> {/* .topbar */}
         <nav className="navbar navbar-expand-lg navbar-light shadow-sm">
           <div className="container">
-          <img style={{maxWidth:"6%", maxHeight:"12%"}} src="/img/doctors/doctor_3.jpg" alt />
+          <img style={{maxWidth:"6%", maxHeight:"12%"}} src="/img/logos/logos_black.png" alt />
             <a className="navbar-brand" href="#"><span className="text-primary"></span>Sisters-Beauty-Salon</a>
             <form action="#">
               <div className="input-group input-navbar">
